@@ -1,5 +1,10 @@
 # BB84 Simulator
 
+## 🚀 Live Demo
+
+Play the game here:
+👉 https://bb84-simulator-cv3byszshjvh4cg64firlh.streamlit.app/
+
 🌍 Languages: 🇺🇸 English | 🇪🇸 Español 
 
 ---
