@@ -1,14 +1,118 @@
 # BB84 Simulator
 
+🌍 Languages: 🇺🇸 English | 🇪🇸 Español 
+
+---
+
+## 🇺🇸 English
+
+Educational simulator of the BB84 quantum cryptography protocol using Python.
+
+This project shows how Fotoncio and Bitberto can generate a shared key using random bases, while Evetron attempts to eavesdrop on the communication.
+
+---
+
+## Characters
+
+- **Fotoncio**: sender of the bits  
+- **Bitberto**: receiver who measures the bits  
+- **Evetron**: eavesdropper trying to intercept the communication  
+
+---
+
+## What does it simulate?
+
+The program simulates a simplified version of the BB84 protocol:
+
+1. Fotoncio generates random bits  
+2. Fotoncio chooses random bases: `Z` or `X`  
+3. Bitberto also chooses random bases  
+4. Evetron may attempt to eavesdrop  
+5. Only the bits where Fotoncio and Bitberto used the same basis are kept  
+6. These bits form a shared key  
+7. If errors are detected, eavesdropping may have occurred  
+
+---
+
+## Why is this important?
+
+BB84 demonstrates a key idea of quantum cryptography:
+
+> If someone tries to measure quantum information, they may disturb it and be detected.
+
+This simulator does not use real photons, but helps to understand the logic behind the protocol.
+
+---
+
+## How to run
+
+You need Python installed.
+
+Run:
+
+```bash
+python bb84_simulator_en.py
+```
+You can also copy the code and run it in Google Colab.
+
+---
+
+## Example usage
+
+Choose your role:
+1. Play as Fotoncio
+2. Play as Bitberto
+3. Play as Evetron
+
+How many bits do you want to simulate? (e.g., 10, 20, 50): 20
+
+The program will display:
+
+- Bases used by Fotoncio
+- Bases used by Bitberto
+- Shared key
+- Detected errors
+- Whether Evetron was detected or not
+
+---
+
+## Concepts used
+
+- Quantum cryptography
+- BB84 protocol
+- Bits
+- Measurement bases
+- Shared key
+- Eavesdropping detection
+- Random simulation
+
+---
+
+## ⚠️ Limitations
+
+This is an educational simulation.
+
+It does not implement real quantum cryptography or use quantum hardware.
+
+Its purpose is to explain the basic behavior of BB84 in a simple way.
+
+---
+
+## 🇪🇸 Español
+
 Simulador educativo del protocolo de criptografía cuántica BB84 usando Python.
 
 Este proyecto muestra cómo Fotoncio y Bitberto pueden generar una clave compartida usando bases aleatorias, mientras Evetron intenta espiar la comunicación.
+
+---
 
 ## Personajes
 
 - **Fotoncio**: emisor de los bits.
 - **Bitberto**: receptor que mide los bits.
 - **Evetron**: espía que intenta interceptar la comunicación.
+
+---
 
 ## ¿Qué simula?
 
@@ -22,6 +126,8 @@ El programa simula una versión sencilla del protocolo BB84:
 6. Esos bits forman una clave compartida.
 7. Si hay errores, se detecta posible espionaje.
 
+---
+
 ## ¿Por qué es importante?
 
 BB84 demuestra una idea central de la criptografía cuántica:
@@ -30,6 +136,8 @@ BB84 demuestra una idea central de la criptografía cuántica:
 
 Este simulador no usa fotones reales, pero ayuda a entender la lógica del protocolo.
 
+---
+
 ## Cómo ejecutar el programa
 
 Necesitas tener Python instalado.
@@ -37,9 +145,11 @@ Necesitas tener Python instalado.
 Ejecuta:
 
 ```bash
-python main.py
+python bb84_simulator_es.py
 ```
 También puedes copiar el código y probarlo en Google Colab.
+
+---
 
 ## Ejemplo de uso
 
@@ -58,6 +168,8 @@ El programa mostrará:
 - Errores detectados
 - Si Evetron fue detectado o no
 
+---
+
 ## Conceptos usados
 
 - Criptografía cuántica  
@@ -75,10 +187,13 @@ El programa mostrará:
 Este proyecto es una simulación educativa.
 
 No implementa criptografía cuántica real ni usa hardware cuántico.  
+
 Su objetivo es explicar el funcionamiento básico de BB84 de forma sencilla.
 
 ---
 
 ## 👨‍💻 Autor
+
+Created by **giiiacomobl** as an educational project on programming and quantum cryptography.
 
 Creado por **giiiacomobl** como proyecto educativo de programación y criptografía cuántica.
