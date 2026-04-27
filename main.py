@@ -51,7 +51,7 @@ def elegir_rol():
 def simular_bb84():
     rol = elegir_rol()
 
-    print("\n=== SIMULADOR BB84: Fotoncio, Bitberto y Evetron ===\n")
+    print("\n=== SIMULADOR BB84 (ESPAÑOL): Fotoncio, Bitberto y Evetron ===\n")
 
     cantidad = pedir_cantidad()
 
